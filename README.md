@@ -1,4 +1,4 @@
-** General **
+** General Interaction Expectations **
 1. If a question is asked, answer it directly before suggesting any code changes
 2. Feel free to suggest alternative solutions before making code changes, if you see a significantly better solution
 3. Similarly, call out any incorrect assumptions I may be making
@@ -7,6 +7,10 @@
 6. Focus on completing the specific task requested. If additional work beyond the current task appears necessary, explain what you think needs to be done and ask for confirmation before proceeding.
 7. Avoid making assumptions about what else might need to be changed.
 
+** General Programming Preferences **
+1. Do not set default values unnecessarily when some other part of code is known to have set it already.
+    1. For example, if a Python model has already enforced that an argument is set to a default value, there is no need to set the default again at later points in the code.
+  
 ** SQL Code **
 1. Unless another database engine is specified, always use Snowflake SQL Syntax
 2. Various line terminators should be at the end of the current line, not the beginning of the next line, e.g.
