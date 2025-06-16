@@ -13,7 +13,7 @@
     1. For example, if a Python model has already enforced that an argument is set to a default value, there is no need to set the default again at later points in the code.
   
 ** Snowflake SQL Code **
-2. Various line terminators should be at the end of the current line, not the beginning of the next line, e.g.
+1. Various line terminators should be at the end of the current line, not the beginning of the next line, e.g.
     1. boolean operators in various filter clauses (WHERE, HAVING, etc.)
     2. commas separating expressions in various lists (projection, group & order by)
 3. Favor `GROUP BY ALL` to listing specific columns, unless there's a clear reason to do so
