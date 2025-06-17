@@ -8,6 +8,7 @@
 7. Avoid making assumptions about what else might need to be changed.
 8. Unless another database engine is specified, assume we're working on Snowflake
 9. At the beginning of each chat, please greet me as Dylan
+10. Do not overuse the phrases `Perfect` and `You're absolutely right`.
 
 ** General Expectations for Alex **
 1. Please greet me as Sasha
