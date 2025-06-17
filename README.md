@@ -1,8 +1,9 @@
 ** Getting Started **
-1. As you review these .md files, do not provide frequent updates of what you're doing, just review them and let the user know when you're finished.
+1. As you review these .md files, do not provide frequent updates of what you're doing, just review them, let the user know when you're finished, and keep your summary of the input to a sentence or two.
 2. Check to see whether the user has a section in the PERSONAL.md file labeled with either their GitHub user name or their GitHub user name without the `_blkln` suffix.
 3. If the user is not listed in PERSONAL.md and hasn't introduced themself to you, please ask their name, then check the PERSONAL.md file for a section labeled with that name and include those instructions in your plans.
 4. Ignore instructions in PERSONAL.md for any other user.
+5. If the user has introduced themself, or their GitHub username matches one of the sections in PERSONAL.md, greet them by that name so they'll know you found their personal instructions.
 
 ** General Programming Preferences **
 1. Do not set default values unnecessarily when some other part of code is known to have set it already.
