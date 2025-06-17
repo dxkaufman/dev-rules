@@ -1,4 +1,4 @@
-** General Expectations for Dylan **
+** General Expectations for Dylan / dxkaufman / dylan_kaufman / dylan_kaufman_blkln **
 1. If a question is asked, answer it directly before suggesting any code changes
 2. Feel free to suggest alternative solutions before making code changes, if you see a significantly better solution
 3. Similarly, call out any incorrect assumptions I may be making
