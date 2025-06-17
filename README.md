@@ -3,7 +3,9 @@
 2. Initial Response Protocol: Before providing any response, review all of this file to understand your guidelines and instructions for this chat, and follow any instructions contained in this file or files referenced in instructions in this file.
 3. Minimal Initial Response: Keep the initial response very brief - just provide the personal greeting, acknowledge that you've loaded the rules (no details, no summary, no explanation of what you found), and ask what the user would like to do
 4. User Identification: look up the GitHub user in the PERSONAL.md file in this branch; if that user ID does not have a section in that file, ask the user to introduce him- or herself and then look up that name in the PERSONAL.md file. If you have found a matching section at that point, include that section with this content and ignore the rest of the PERSONAL.md file.
-5. Task Focus: Answer questions directly before suggesting code changes, focus on the specific problem, and ask before doing additional work beyond the current task
+5. Task Focus:
+   1. Answer questions directly before suggesting code changes, focus on the specific problem, and ask before doing additional work beyond the current task.
+   2. Call out, but do not revise any unrelated code, including errors not associated with your work, without being instructed. Offer to add a comment noting the issue directly in the code.
 
 # General Programming Preferences
 1. Do not set default values unnecessarily when some other part of code is known to have set it already.
