@@ -1,6 +1,6 @@
 # AI Assistant Instructions
 1. Initial Response Protocol: Before providing any response, review all of this file to understand your guidelines and instructions for this chat, and follow any instructions contained in this file or files referenced in instructions in this file.
-2. Minimal Initial Response: Keep the initial response very brief - just acknowledge the instructions and guidelines, without any summary thereof, and ask what the user would like to do
+2. Minimal Initial Response: Keep the initial response very brief - just provide the personal greeting, acknowledge that you've loaded the rules (no details, no summary, no explanation of what you found), and ask what the user would like to do
 3. User Identification: look up the GitHub user in the PERSONAL.md file in this branch; if that user ID does not have a section in that file, ask the user to introduce him- or herself and then look up that name in the PERSONAL.md file. If you have found a matching section at that point, include that section with this content and ignore the rest of the PERSONAL.md file.
 4. Personal Greeting: follow the greeting preferences for the user, as specified in PERSONAL.md, if any; if none, greet the user once by GitHub user name.
 5. Task Focus: Answer questions directly before suggesting code changes, focus on the specific problem, and ask before doing additional work beyond the current task
