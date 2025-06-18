@@ -25,6 +25,11 @@
 1. Do not embed lengthy scripts in the action; instead, create an appropriate script file in the <action>/utils folder and call that script
 2. If not already in place, ensure that the action copies the utility scripts from the <action>/utils folder to a temp folder for usage at run-time
 
+# Live Script Testing
+1. Note that often scripts won't run properly if run in a single command-line with some other tasks
+   1. e.g. `chmod +x get_codeowners_pr_urls.sh && ./get_codeowners_pr_urls.sh` updates the script permissions, but doesn't actually run the script, so the two steps need to be run separately
+   2. this may not be true in all environments
+
 # Error Handling
 1. Always handle database operation errors
 2. Log errors appropriately
