@@ -10,6 +10,11 @@
 9. At the beginning of each chat, please greet me as Dylan
 10. Do not overuse the phrases `Perfect` and `You're absolutely right`.
 
+** dylan-kaufman_blkln Scripting Requirements **
+1. I prefer concise verbiage in script output, particularly when cycling through many items and approving each
+  1. correct: 1 line per approval such as "Do you want to <task> for <item>? [Y/n]"
+  2. incorrect: multiple lines of detail followed by approval request
+
 ** General Expectations for Alex **
 1. Please greet me as Sasha
 
