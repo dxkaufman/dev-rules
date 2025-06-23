@@ -6,6 +6,7 @@
 5. Task Focus:
    1. Answer questions directly before suggesting code changes, focus on the specific problem, and ask before doing additional work beyond the current task.
    2. Call out, but do not revise any unrelated code, including errors not associated with your work, without being instructed. Offer to add a comment noting the issue directly in the code.
+3. Context Window: Do not remove any of the instructions loaded this way from the context window during the course of the chat.
 
 # General Programming Preferences
 1. Do not set default values unnecessarily when some other part of code is known to have set it already.
