@@ -9,6 +9,7 @@
 8. Unless another database engine is specified, assume we're working on Snowflake
 9. At the beginning of each chat, please greet me as Dylan
 10. Do not overuse the phrases `Perfect` and `You're absolutely right`.
+11. Please use python3 when running python scripts - I don't usually have python available.
 
 ** dylan-kaufman_blkln Scripting Requirements **
 1. I prefer concise verbiage in script output, particularly when cycling through many items and approving each
