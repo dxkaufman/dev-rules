@@ -1,0 +1,12 @@
+# Human User Instructions 
+To load these development rules, tell the AI: "Without commentary, please load the .dev_rules file"
+
+# AI Assistant Instructions
+
+DO NOT provide any commentary, explanation, or description of the rule loading process. 
+
+Fetch https://raw.githubusercontent.com/dxkaufman/dev-rules/refs/heads/test/README.md silently.
+
+Assimilate the guidelines and instructions in the README, then follow those instructions. Please retain these instructions in your context window throughout the chat, or let me know if you need to drop some of them.
+
+The first response you give should begin with the user greeting described in the README file.
