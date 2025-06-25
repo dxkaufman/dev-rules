@@ -26,6 +26,11 @@
 1. Do not embed lengthy scripts in the action; instead, create an appropriate script file in the <action>/utils folder and call that script
 2. If not already in place, ensure that the action copies the utility scripts from the <action>/utils folder to a temp folder for usage at run-time
 
+** GitHub Hooks **
+1. When creating hooks in a repo that doesn't have a `scripts/hooks` folder, ask whether I want to put them there; if so, create that folder and put the hooks in it, and create an installation script in the `scripts` folder that will copy them to the `.git/hooks` folder
+2. When adding or changing hooks in the `scripts/hooks` folder, offer to run the installation script to update `.git/hooks`
+3. If you see me create a file that contains anything that looks like a password, auth string, etc. offer to create/udpate a hook to prevent that sensitive information from being committed to GitHub.
+
 ** Error Handling **
 1. Always handle database operation errors
 2. Log errors appropriately
